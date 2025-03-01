@@ -68,6 +68,11 @@ const teamData = [
           imageUrl: '/bronimage.png',
         },
         {
+            name: 'Ingrid Daubar',
+            institution: 'Brown University',
+            imageUrl: '/bronimage.png',
+          },
+        {
           name: 'Kerri Donaldson-Hanna',
           institution: 'University of Central Florida',
           imageUrl: '/bronimage.png',
@@ -98,9 +103,14 @@ const teamData = [
           imageUrl: '/bronimage.png',
         },
         {
-          name: 'Chris Huber',
+          name: 'Daniel Ibarra',
           institution: 'Brown University',
           imageUrl: '/bronimage.png',
+        },
+        {
+            name: 'Chris Huber',
+            institution: 'Brown University',
+            imageUrl: '/bronimage.png',
         },
         {
           name: 'Alexandria Johnson',
@@ -210,6 +220,48 @@ const teamData = [
         },
       ],
     },
+    {
+        role: 'Graduate Students',
+        large: false,
+        members: [
+          {
+            name: 'Uthkarsh Das',
+            institution: '',
+            imageUrl: '/bronimage.png',
+          },
+          {
+            name: 'Noah Hooper',
+            institution: '',
+            imageUrl: '/bronimage.png',
+          },
+          {
+            name: 'Carol Hundal',
+            institution: '',
+            imageUrl: '/bronimage.png',
+          },
+          {
+            name: 'Wenhao Zhao',
+            institution: '',
+            imageUrl: '/bronimage.png',
+          },
+        ],
+      },
+      {
+        role: 'Support',
+        large: false,
+        members: [
+          {
+            name: 'Julia Lazarus',
+            institution: 'Public Engagement and Workforce Development Associate',
+            imageUrl: '/bronimage.png',
+          },
+          {
+            name: 'Kevin Stacey',
+            institution: 'Program Manager',
+            imageUrl: '/bronimage.png',
+          },
+        ],
+      },
   ];
 export default function Home() {
     return (
