@@ -1,7 +1,9 @@
 import Image from "next/image";
-export default function Intro() {
+import ProfileGroup from "./group"
+
+const Intro: React.FC = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center gap-20">
         <h1 className="text-5xl">Meet the Team</h1>
         <div className="">
             <Image 
@@ -12,9 +14,12 @@ export default function Intro() {
             />
         </div>
        
-        <p>
+        <h2 className="text-xl text-center">
             LunaSCOPE team members hail from 20 different institutions in the U.S. and around world, including three minority serving insitutions and an HBCU. From undergraduates getting their first research experience to world-renowned members of the planetary science field, LunaSCOPE is a diverse, dynamic and multidicsiplinary collaboration.
-        </p>
+        </h2>
     </div>
   );
 }
+
+
+export default Intro
