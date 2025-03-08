@@ -1,0 +1,72 @@
+.accordion-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 45px; 
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: transparent;
+    color: #2d3748;
+    border: none;
+    cursor: pointer;
+    text-align: left; 
+  }
+  
+  .accordion-button:hover {
+    background-color: #e2e8f0;
+    border-radius: 6px;
+  }
+  
+  .accordion-content {
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    height: 0;
+  }
+  
+  .accordion-content.open {
+    height: auto;
+    padding: 16px;
+    background-color: #f7fafc;
+    color: #4a5568;
+    padding: 0px 45px;
+  }
+  
+  .accordion-content p {
+    margin-bottom: 16px;
+  }
+  
+  .accordion-item {
+    border: 2px solid #868383; 
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .publications-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+  }
+  
+  .publicationsTitle h1 {
+    color: #000000; 
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .subheader2024 {
+    padding-left: 100px; 
+    margin-top: 20px; 
+  }
+  
+  .subheader2024 h2 {
+    color: #333;
+    font-weight: normal;
+  }
+  
+  
+  
