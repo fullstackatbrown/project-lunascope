@@ -11,7 +11,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({ name, institution, imageUrl, 
     const size : string = (sizing ? "w-40" : "w-40")
     const imageSize : string = (sizing ? "w-36" : "w-36")
     return (
-        <div className={`${size} text-center p-4 shadow-lg flex grow basis-3xs flex-col items-center`}>
+        <div className={`${size}  text-center p-4 shadow-lg flex grow basis-3xs flex-col items-center`}>
             <div>
                 <Image 
                     src={imageUrl} 
