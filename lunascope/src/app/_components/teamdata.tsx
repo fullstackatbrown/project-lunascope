@@ -252,11 +252,6 @@ export const teamData = [
             institution: 'Public Engagement and Workforce Development Associate',
             imageUrl: '/bronimage.png',
           },
-          {
-            name: 'Kevin Stacey',
-            institution: 'Program Manager',
-            imageUrl: '/bronimage.png',
-          },
         ],
       },
   ];

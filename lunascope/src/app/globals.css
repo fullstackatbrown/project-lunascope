@@ -4,12 +4,12 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #292A36;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #292A36;
     --foreground: #ededed;
   }
 }
@@ -17,5 +17,11 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-museo), Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: var(--font-museo);
+}
+* {
+    font-family: var(--font-inter);
 }
