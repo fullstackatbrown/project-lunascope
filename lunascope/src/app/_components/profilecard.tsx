@@ -8,8 +8,8 @@ interface ProfileCardProps {
   }
   
 const ProfileCard: React.FC<ProfileCardProps> = ({ name, institution, imageUrl, sizing }) => {
-    const size : string = (sizing ? "w-40" : "w-40")
-    const imageSize : string = (sizing ? "w-36" : "w-36")
+    const size : string = (sizing ? "w-48" : "w-48")
+    const imageSize : string = (sizing ? "w-40" : "w-40")
     return (
         <div className={`${size}  text-center p-4 shadow-lg flex grow basis-3xs flex-col items-center`}>
             <div>

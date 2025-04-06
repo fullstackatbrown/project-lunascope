@@ -9,8 +9,8 @@ const Intro: React.FC = () => {
         <Image 
         src="/LNSCP_Team_LF.jpg" 
         alt="Vercel logomark"
-        width={1920}
-        height={891}
+        width={1728}
+        height={802}
         />
     </div>
     
