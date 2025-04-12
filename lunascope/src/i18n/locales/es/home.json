@@ -1,0 +1,11 @@
+{
+  "welcome": "Bienvenido a Lunascope",
+  "description": "Una poderosa herramienta para la observación lunar",
+  "getStarted": "Comienza editando",
+  "saveChanges": "Guarda y ve tus cambios al instante",
+  "deployNow": "Implementar ahora",
+  "readDocs": "Leer documentación",
+  "learn": "Aprender",
+  "examples": "Ejemplos",
+  "goToNextjs": "Ir a nextjs.org"
+}
