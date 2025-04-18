@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ————————————————
+   Custom Component Styles
+   ———————————————— */
+@layer components {
+  /* Re‑usable heading used across Hero, Team, Approach, etc. */
+  .heading {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold;
+  }
+}
+
+/* ————————————————
+   Custom Utility Classes
+   ———————————————— */
+@layer utilities {
+  /* Match your homepage dark panel background */
+  .bg-black-100 {
+    background-color: #13162D;
+  }
+  /* Used for slightly translucent white text (e.g. in Footer) */
+  .text-white-200 {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+/* ————————————————
+   Color‑Scheme Variables
+   ———————————————— */
 :root {
   --background: #ffffff;
   --foreground: #292A36;
@@ -14,14 +41,19 @@
   }
 }
 
+/* ————————————————
+   Base Typography & Reset
+   ———————————————— */
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-museo), Arial, Helvetica, sans-serif;
 }
+
 h1 {
-    font-family: var(--font-museo);
+  font-family: var(--font-museo);
 }
+
 * {
-    font-family: var(--font-inter);
+  font-family: var(--font-inter);
 }

@@ -1,31 +1,39 @@
 import React from "react";
-import Image from 'next/image'
+import Image from "next/image";
+
 interface ProfileCardProps {
-    name: string;
-    institution: string;
-    imageUrl: string;
-    sizing: boolean;
-  }
-  
-const ProfileCard: React.FC<ProfileCardProps> = ({ name, institution, imageUrl, sizing }) => {
-    const size : string = (sizing ? "w-48" : "w-48")
-    const imageSize : string = (sizing ? "w-40" : "w-40")
-    return (
-        <div className={`${size}  text-center p-4 shadow-lg flex grow basis-3xs flex-col items-center`}>
-            <div>
-                <Image 
-                    src={imageUrl} 
-                    alt="Vercel logomark"
-                    width={225}
-                    height={225}
-                    className={`${imageSize} h-auto rounded-full`}
-                />
-            </div>
-            
-            <h3 className="mt-3 text-lg font-semibold">{name}</h3>
-            <p className="text-sm text-gray-300">{institution}</p>
-        </div>
-    );
-};
+  name: string;
+  institution: string;
+  imageUrl: string;
+  sizing: boolean;
+}
+
+const ProfileCard: React.FC<ProfileCardProps> = ({
+  name,
+  institution,
+  imageUrl,
+  sizing,
+}) => (
+    <div className="
+    bg-white/20
+    dark:bg-gray-800
+    border border-black/[0.1]
+    rounded-3xl
+    shadow-xl
+    p-6
+    flex flex-col items-center
+  ">
+    <Image
+      src={imageUrl}
+      alt={name}
+      width={100}
+      height={100}
+      className="w-24 h-24 rounded-full border-2 border-black/[0.1] mb-4 object-cover"
+    />
+
+    <h3 className="text-lg font-semibold text-white">{name}</h3>
+    <p className="text-sm text-gray-400">{institution}</p>
+  </div>
+);
 
 export default ProfileCard;
