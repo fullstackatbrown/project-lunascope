@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cosmicjs/sdk": "^1.5.2",
     "@react-three/drei": "^9.111.0",
     "@react-three/fiber": "^8.17.5",
     "clsx": "^2.1.1",
