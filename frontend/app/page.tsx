@@ -8,30 +8,19 @@ import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Events from "@/components/Events";
 import RecentProjects from "@/components/RecentProjects";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import { getMoonImage } from "@/lib/cosmicClient";
+import { FloatingNav } from "@/components/ui/FloatingNavbar";;
 
-const Home = async () => {
-  const moonImage = await getMoonImage();
-
+const Home = () => {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
-        {/* <FloatingNav navItems={navItems} /> */}
-        
-        {moonImage ? (
-        <div className="relative w-full max-w-2xl aspect-square">
-          <img src={moonImage.metadata.moon_image.imgix_url} />
-        </div>
-      ) : (
-        <p>Loading moon image...</p>
-      )}
-        {/* <Hero />
+        <FloatingNav navItems={navItems} />
+        <Hero />
         <Grid />
         <Clients />
         <Events />
         <Approach />
-        <Footer /> */}
+        <Footer />
       </div>
     </main>
   );
