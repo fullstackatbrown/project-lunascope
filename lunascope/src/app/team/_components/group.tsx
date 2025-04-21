@@ -14,8 +14,11 @@ interface ProfileGroupProps {
 }
 
 const ProfileGroup: React.FC<ProfileGroupProps> = ({ title, sizing, members }) => (
-  <div className="border-t border-black/[0.2] pt-16 pb-16">
-    <h2 className="heading text-center mb-12">{title}</h2>
+  <div className="border-t border-[#1F202C] pt-16 pb-16">
+    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-12">
+      {title}
+    </h2>
+
     <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
       {members.map((member, index) => (
         <ProfileCard
