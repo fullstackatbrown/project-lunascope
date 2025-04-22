@@ -8,8 +8,8 @@ import Footer from "@/components/Footer";
 import Clients from "@/components/Clients";
 import Groups from "@/components/Groups";
 import Events from "@/components/Events";
-import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import TestimonialForm from "@/components/TestimonialForm";
 
 const Home = () => {
   return (
@@ -19,6 +19,7 @@ const Home = () => {
         <Hero />
         <Grid />
         <Clients />
+        <TestimonialForm />
         <Events />
         <Groups />
         <Footer />

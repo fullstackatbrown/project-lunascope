@@ -7,6 +7,7 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 export const FloatingNav = ({
@@ -71,6 +72,13 @@ export const FloatingNav = ({
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
       >
+        <Image
+          src="/i1.png"
+          alt="logo"
+          width={40}
+          height={40}
+          className="mr-4"
+        />
         {navItems.map((navItem: any, idx: number) => (
           <Link
             key={`link=${idx}`}

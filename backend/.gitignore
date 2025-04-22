@@ -1,0 +1,7 @@
+# this file tells git what to ignore when we commit changes
+
+# do not commit imported package files
+node_modules/
+
+# do not commit environment secrets
+.env*
