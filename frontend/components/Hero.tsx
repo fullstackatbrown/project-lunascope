@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 import { useTranslation } from "@/i18n/hooks";
 
 const Hero = () => {
-  const { t } = useTranslation();
+  const { t, locale } = useTranslation();
   return (
     <div id="home">
         {/* <head> */}
@@ -57,12 +57,14 @@ const Hero = () => {
           </p>
 
           <TextGenerateEffect
+            key={locale}
             words={t("Want to find resources about ...")}
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <div className="text-center text-bold mb-10 text-white text-[40px] md:text-5xl lg:text-6xl">
             <TypeAnimation
+              key={locale}
               sequence={[
                 t("Planetary Science Events"),
                 1000,
