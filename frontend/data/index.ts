@@ -1,7 +1,7 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Contact", link: "#contact" },
+  { name: "Home", link: "#home" },
+  { name: "Events", link: "#events" },
+  { name: "Groups", link: "#groups" },
 ];
 
 export const gridItems = [
@@ -137,7 +137,7 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
+export const weeklyEvents = [
   {
     id: 1,
     title: "Mondays",

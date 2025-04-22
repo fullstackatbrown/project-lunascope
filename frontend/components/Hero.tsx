@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 
 const Hero = () => {
   return (
-    <div>
+    <div id="home">
         {/* <head> */}
         {/* <script defer src="https://app.tinyanalytics.io/pixel/N2Z5eWeQrhW6Uin9"></script> */}
         
@@ -26,9 +26,9 @@ const Hero = () => {
         />
         <Spotlight
           className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="purple"
+          fill="white"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
+        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="gray" />
       </div>
 
       {/**
@@ -65,7 +65,7 @@ const Hero = () => {
             words="Want to find resources about ..."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
         />
-    <div className="text-center text-bold mb-10 text-purple text-[40px] md:text-5xl lg:text-6xl">
+    <div className="text-center text-bold mb-10 text-white text-[40px] md:text-5xl lg:text-6xl">
         <TypeAnimation
             sequence={[
             "Planetary Science Events",
