@@ -1,0 +1,37 @@
+{
+  "switchLanguage": "Switch to Spanish",
+  "loading": "Loading...",
+  "error": "An error occurred",
+  "notFound": "Page not found",
+  "back": "Back",
+  "next": "Next",
+  "previous": "Previous",
+  "submit": "Submit",
+  "cancel": "Cancel",
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "showMe": "Show me!"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "serverError": "Server error"
+  },
+  "hero": {
+    "subtitle": "Curated by LunaSCOPE with Brown University Astronomy Club in the Department of Physics",
+    "title": "Want to find resources about ...",
+    "description": "Experience Planetary Science in Providence and across Rhode Island",
+    "typewriter": {
+      "text1": "Planetary Science Events",
+      "text2": "Moon Observation",
+      "text3": "Astronomy Resources",
+      "text4": "Local PVD Events"
+    }
+  }
+}

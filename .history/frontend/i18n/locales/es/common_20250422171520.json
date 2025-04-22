@@ -1,0 +1,25 @@
+{
+  "switchLanguage": "Cambiar a Inglés",
+  "loading": "Cargando...",
+  "error": "Se produjo un error",
+  "notFound": "Página no encontrada",
+  "back": "Atrás",
+  "next": "Siguiente",
+  "previous": "Anterior",
+  "submit": "Enviar",
+  "cancel": "Cancelar",
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "buttons": {
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "save": "Guardar"
+  },
+  "errors": {
+    "notFound": "Página no encontrada",
+    "serverError": "Error del servidor"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "switchLanguage": "Cambiar a inglés",
+  "loading": "Cargando...",
+  "error": "Se produjo un error",
+  "notFound": "Página no encontrada",
+  "back": "Atrás",
+  "next": "Siguiente",
+  "previous": "Anterior",
+  "submit": "Enviar",
+  "cancel": "Cancelar",
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "buttons": {
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "showMe": "¡Muéstrame!"
+  },
+  "errors": {
+    "notFound": "Página no encontrada",
+    "serverError": "Error del servidor"
+  },
+  "hero": {
+    "subtitle": "Curado por LunaSCOPE con el Club de Astronomía de la Universidad Brown en el Departamento de Física",
+    "title": "¿Quieres encontrar recursos sobre ...",
+    "description": "Experimenta la Ciencia Planetaria en Providence y en todo Rhode Island",
+    "typewriter": {
+      "text1": "Eventos de Ciencia Planetaria",
+      "text2": "Observación de la Luna",
+      "text3": "Recursos de Astronomía",
+      "text4": "Eventos Locales de PVD"
+    }
+  }
+}

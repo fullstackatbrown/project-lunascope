@@ -1,16 +1,17 @@
 "use client";
 
 import React from "react";
-
 import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
+import { useTranslation } from "@/i18n/hooks";
 
 const Clients = () => {
+  const { t } = useTranslation();
   return (
     <section id="testimonials" className="py-20">
       <h1 className="heading">
-        Kind words from
-        <span className="text-gray-400"> community members</span>
+        {t("Kind words from")}
+        <span className="text-gray-400"> {t("community members")}</span>
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">

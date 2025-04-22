@@ -1,0 +1,25 @@
+{
+  "switchLanguage": "Switch to Spanish",
+  "loading": "Loading...",
+  "error": "An error occurred",
+  "notFound": "Page not found",
+  "back": "Back",
+  "next": "Next",
+  "previous": "Previous",
+  "submit": "Submit",
+  "cancel": "Cancel",
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "serverError": "Server error"
+  }
+}

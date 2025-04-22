@@ -1,0 +1,64 @@
+{
+  "switchLanguage": "Switch to Spanish",
+  "loading": "Loading...",
+  "error": "An error occurred",
+  "notFound": "Page not found",
+  "back": "Back",
+  "next": "Next",
+  "previous": "Previous",
+  "submit": "Submit",
+  "cancel": "Cancel",
+  "navigation": {
+    "home": "Home",
+    "events": "Events",
+    "groups": "Groups",
+    "team": "Team"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "showMe": "Show me!"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "serverError": "Server error"
+  },
+  "hero": {
+    "subtitle": "Curated by LunaSCOPE with Brown University Astronomy Club in the Department of Physics",
+    "title": "Want to find resources about ...",
+    "description": "Experience Planetary Science in Providence and across Rhode Island",
+    "typewriter": {
+      "text1": "Planetary Science Events",
+      "text2": "Moon Observation",
+      "text3": "Astronomy Resources",
+      "text4": "Local PVD Events"
+    }
+  },
+  "grid": {
+    "item1": {
+      "title": "Come join us for some fun events!",
+      "description": "Hi"
+    },
+    "item2": {
+      "title": "One of the top lunar research groups in the world",
+      "description": ""
+    },
+    "item3": {
+      "title": "public resources!",
+      "description": "LunaSCOPE offers many"
+    },
+    "item4": {
+      "title": "Scroll down to see some of our public resources!",
+      "description": ""
+    },
+    "item5": {
+      "title": "We're always having new events!",
+      "description": "The Inside Scoop"
+    },
+    "item6": {
+      "title": "Do you want to return to the main LunaSCOPE page?",
+      "description": ""
+    }
+  }
+}
